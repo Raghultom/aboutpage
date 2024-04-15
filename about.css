@@ -1035,12 +1035,13 @@ background-color: #e207de !important;
 .bottom-buttons button {
     width: 10px;
     height: 10px;
-    gap: 0px;
     border-radius: 8px;
     opacity: 0px;
     background-color: rgba(196, 196, 196, 1);
     cursor: pointer;
     border: none;
+    margin-left: 4px !important ;
+
   
   }
   
@@ -1054,7 +1055,34 @@ background-color: #e207de !important;
   
   
   }
+  .bottom-buttons1 button {
+    width: 10px;
+    height: 10px;
+    gap: 20px !important ;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: rgba(196, 196, 196, 1);
+    cursor: pointer;
+    border: none;
+    margin-left: 4px !important ;
+    margin-bottom: 80px !important;
+
+
+  }
+  .bottom-buttons1 button.active {
+    background: rgba(44, 160, 104, 1);
+    width: 24px;
+    height: 8px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+
+  }
+
+
   
+
+
   
 @media (max-width:768px) {
     .about_session8_image_display1{
