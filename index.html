@@ -969,130 +969,7 @@
 
   <!-- About page session7 finished ================================================================================================================================================ -->
   <!-- About page session8 ================================================================================================================================================ -->
-  <!-- 
-    <div class="about_session8_maindiv">
-      <div class="row about_session8_row11">
-        <div class="col about_session8_col1">
-          <p class="about_session8_para1">
-            Our <span class="about_session8_span1">Case Studies</span>
-          </p>
-          <p class="about_session8_para2">
-            Management Software Solution for small to mid-sized accounting firms.
-          </p>
-          <p class="about_session8_para3">
-            Lorem ipsum dolor sit amet. Non commodi aliquam qui voluptatem
-            dignissimos sed modi nihil aut Quis porro id suscipit quam qui excepturi dolor ut quasi voluptatem! Sed
-            molestias animi ad quos modi qui libero laborum ab omnis magnam.
-            dolor ut quasi voluptatem! Sed molestias animi ad quos modi qui libero laborum Lorem ipsum dolor sit amet.
-            <br>
-
-            Non commodi aliquam qui voluptatem dignissimos sed modi nihil
-            aut Quis porro id suscipit quam qui excepturi dolor ut quasi voluptatem!
-
-          </p>
-          <button type="button" class="about_session8_button">Primary &rarr;</button>
-
-
-
-        </div>
-        <div class="col">
-          <img src="./aboutImages/Frame.png" alt="Image" class="about_session8_image">
-
-        </div>
-      </div>
-    </div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--   
-  <div class="about_session8_maindiv">
-    <div class="container">
-      <div class="row about_session8_row11">
-        <div class="col about_session8_col1">
-          <p class="about_session8_para1">
-            Our <span class="about_session8_span1">Case Studies</span>
-          </p>
-          <p class="about_session8_para2">
-            Management Software Solution for small to mid-sized accounting firms.
-          </p>
-          <p class="about_session8_para3" id="content1">
-            Lorem ipsum dolor sit amet. Non commodi aliquam qui voluptatem dignissimos sed modi nihil aut Quis porro id
-            suscipit quam qui excepturi dolor ut quasi voluptatem! Sed molestias animi ad quos modi qui libero laborum
-            ab omnis magnam. dolor ut quasi voluptatem! Sed molestias animi ad quos modi qui libero laborum Lorem ipsum
-            dolor sit amet.
-            <br>
-            <br>
-            Non commodi aliquam qui voluptatem dignissimos sed modi nihil aut Quis porro id suscipit quam qui excepturi
-            dolor ut quasi voluptatem!1
-          </p>
-          <p class="about_session8_para3" id="content2" style="display:none;">
-            Lorem ipsum dolor sit amet. Non commodi aliquam qui voluptatem dignissimos sed modi nihil aut Quis porro id
-            suscipit quam qui excepturi dolor ut quasi voluptatem! Sed molestias animi ad quos modi qui libero laborum
-            ab omnis magnam. dolor ut quasi voluptatem! Sed molestias animi ad quos modi qui libero laborum Lorem ipsum
-            dolor sit amet.
-            <br>
-            <br>
-            Non commodi aliquam qui voluptatem dignissimos sed modi nihil aut Quis porro id suscipit quam qui excepturi
-            dolor ut quasi voluptatem!2
-          </p>
-          <p class="about_session8_para3" id="content3" style="display:none;">
-            Lorem ipsum dolor sit amet. Non commodi aliquam qui voluptatem dignissimos sed modi nihil aut Quis porro id
-            suscipit quam qui excepturi dolor ut quasi voluptatem! Sed molestias animi ad quos modi qui libero laborum
-            ab omnis magnam. dolor ut quasi voluptatem! Sed molestias animi ad quos modi qui libero laborum Lorem ipsum
-            dolor sit amet.
-            <br>
-            <br>
-            Non commodi aliquam qui voluptatem dignissimos sed modi nihil aut Quis porro id suscipit quam qui excepturi
-            dolor ut quasi voluptatem!3
-          </p>
-          <p class="about_session8_para3" id="content4" style="display:none;">
-            Lorem ipsum dolor sit amet. Non commodi aliquam qui voluptatem dignissimos sed modi nihil aut Quis porro id
-            suscipit quam qui excepturi dolor ut quasi voluptatem! Sed molestias animi ad quos modi qui libero laborum
-            ab omnis magnam. dolor ut quasi voluptatem! Sed molestias animi ad quos modi qui libero laborum Lorem ipsum
-            dolor sit amet.
-            <br>
-            <br>
-            Non commodi aliquam qui voluptatem dignissimos sed modi nihil aut Quis porro id suscipit quam qui excepturi
-            dolor ut quasi voluptatem!4
-          </p>
-          <div class="about_session8_button_div">
-            <button type="button" class="about_session8_button">Primary &rarr;</button>
-          </div>
-        </div>
-        <div class="col about_session8_image_col">
-          <img src="./aboutImages/Frame.png" alt="Image" class="about_session8_image img-fluid">
-        </div>
-      </div>
-      <div class="bottom-buttons">
-        <button onclick="displayContent(1)" class="active"></button>
-        <button onclick="displayContent(2)"></button>
-        <button onclick="displayContent(3)"></button>
-        <button onclick="displayContent(4)"></button>
-      </div>
-    </div>
-  </div> -->
-
-
-
-
-
-
-
-
+  
 
    <div class="container">
     <div class="row mt-5">
@@ -1153,7 +1030,7 @@
     </div>
     <div class="row mt-3 about_session8_point_display2">
       <div class="col">
-        <div class="bottom-buttons d-flex justify-content-center">
+        <div class="bottom-buttons1 d-flex justify-content-center">
           <button onclick="displayContent(1)" class="active btn btn-sm "></button>
           <button onclick="displayContent(2)" class="btn btn-sm bottom_buttons"></button>
           <button onclick="displayContent(3)" class="btn btn-sm bottom_buttons"></button>
@@ -1168,6 +1045,9 @@
 
 
 
+
+  
+
   <script>
     var currentContent = 1; // Track the current content
 
@@ -1181,11 +1061,18 @@
       var content = document.getElementById("content" + contentNumber);
       content.style.display = "block";
 
-      var buttons = document.querySelectorAll(".bottom-buttons button");
-      buttons.forEach(function (button) {
+      var buttons1 = document.querySelectorAll(".bottom-buttons button");
+      var buttons2 = document.querySelectorAll(".bottom-buttons1 button");
+      
+      buttons1.forEach(function (button) {
         button.classList.remove("active");
       });
-      buttons[contentNumber - 1].classList.add("active");
+      buttons2.forEach(function (button) {
+        button.classList.remove("active");
+      });
+
+      buttons1[contentNumber - 1].classList.add("active");
+      buttons2[contentNumber - 1].classList.add("active");
 
       currentContent = contentNumber; // Update current content
     }
@@ -1201,12 +1088,13 @@
 
     // Start automatic sliding
     var slideInterval = setInterval(autoSlideContent, 3000); 
-  </script>
+</script>
 
 
 
-  
-  
+
+
+
 
 
 
